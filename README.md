@@ -1,10 +1,10 @@
 # Flutter_Mini_Projeler
 Flutter öğrenme sürecinde yaptığım mini projeler.
-# Proje1
+# Proje 1
 ![Proje1](proje1_screen.png)
-# Proje2
+# Proje 2
 ![Proje2](project_2.png)
-# Proje3
+# Proje 3
 ![Proje3](proje3_screen.png)
-# Proje4
+# Proje 4
 ![Proje4](proje4_screen.png)
