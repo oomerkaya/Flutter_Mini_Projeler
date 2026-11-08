@@ -1,17 +1,23 @@
-# proje4
+# Proje 4 — Kullanıcı Kayıt Formu
 
-A new Flutter project.
+Flutter form alanları ve doğrulama kurallarını gösteren bir kullanıcı kayıt ekranı. Form; ad-soyad, yaş, e-posta, şifre, cinsiyet ve gizlilik sözleşmesi alanlarını içerir.
 
-## Getting Started
+## Doğrulama kuralları
 
-This project is a starting point for a Flutter application.
+- Ad-soyad, yaş, e-posta ve şifre boş bırakılamaz.
+- Yaş en az 18 olmalıdır.
+- E-posta biçimi `email_validator` paketiyle kontrol edilir.
+- Şifre en az 8 karakter olmalıdır.
+- Kaydetme için cinsiyet seçimi ve sözleşme onayı da gerekir.
+- Sıfırla düğmesi alanları ve seçimleri temizler.
 
-A few resources to get you started if this is your first Flutter project:
+Başarılı gönderimde girilen bilgiler uygulama içinde bir SnackBar ile gösterilir; bu örnek verileri bir sunucuya göndermez veya kalıcı olarak kaydetmez.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Çalıştırma
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
+
+Bu proje eğitim amaçlı bir form ve doğrulama örneğidir.
