@@ -1,17 +1,25 @@
-# flutter_proje1
+# Proje 1 — Kişisel Profil Ekranı
 
-A new Flutter project.
+Flutter Material bileşenleriyle hazırlanmış, kişisel bilgileri tek ekranda sunan basit bir profil sayfası örneği.
 
-## Getting Started
+## Ekranda neler var?
 
-This project is a starting point for a Flutter application.
+- Ağ üzerinden yüklenen profil görseli
+- Okul, fakülte ve bölüm bilgilerinin gösterildiği kart
+- Uygulamanın amacını anlatan bilgi kartı
+- Web sitesi ve iletişim başlıklı iki örnek buton
 
-A few resources to get you started if this is your first Flutter project:
+Butonlar bu sürümde yalnızca hata ayıklama konsoluna mesaj yazar; web sayfası açmaz veya iletişim başlatmaz.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Kullanılan Flutter bileşenleri
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`MaterialApp`, `Scaffold`, `AppBar`, `CircleAvatar`, `Card`, `Divider`, `Row`, `Column` ve yeniden kullanılan yardımcı widget metotları.
+
+## Çalıştırma
+
+```bash
+flutter pub get
+flutter run
+```
+
+Profil görseli harici bir URL'den yüklendiği için görselin görüntülenmesi ağ bağlantısına bağlıdır.
