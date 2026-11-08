@@ -1,17 +1,24 @@
-# flutter_proje2
+# Proje 2 — Kişiler Listesi
 
-A new Flutter project.
+Flutter ile oluşturulmuş, JSON biçimindeki yerel örnek veriyi kartlı bir kişi listesinde gösteren mini uygulama. Ekranda “Kişiler” başlığı, kişi kartları, ekleme düğmesi ve alt gezinme çubuğu bulunur.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
+- `assets/data/persons.json` içindeki `persons` listesini uygulama varlıklarından okur.
+- Kişileri ad-soyad ve kimlik numarası görünümüyle listeler.
+- Artı düğmesiyle geçerli oturumda örnek bir kişi ekler.
+- Ana Sayfa, Durum ve Geçmiş Aramalar başlıklı alt gezinme öğelerini gösterir.
+- Menüde Yeni Grup, Yıldızlı Mesajlar ve Ayarlar seçenekleri bulunur.
 
-A few resources to get you started if this is your first Flutter project:
+Kişi ekleme uygulama belleğinde yapılır; uygulama yeniden başlatıldığında JSON dosyasına yazılmaz. Menü ve alt gezinme öğeleri arayüz örneği olarak sunulmuştur.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Çalıştırma
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Proje klasöründe:
+
+```bash
+flutter pub get
+flutter run
+```
+
+Örnek kişi verileri `assets/data/persons.json` dosyasındadır. Varlık yolu `pubspec.yaml` içinde tanımlanmıştır.
