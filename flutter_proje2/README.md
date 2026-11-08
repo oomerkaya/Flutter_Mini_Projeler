@@ -5,7 +5,7 @@ Flutter ile oluşturulmuş, JSON biçimindeki yerel örnek veriyi kartlı bir ki
 ## Özellikler
 
 - `assets/data/persons.json` içindeki `persons` listesini uygulama varlıklarından okur.
-- Kişileri ad-soyad ve kimlik numarası görünümüyle listeler.
+- Kişileri ad-soyad ve daire içindeki örnek numara etiketiyle listeler.
 - Artı düğmesiyle geçerli oturumda örnek bir kişi ekler.
 - Ana Sayfa, Durum ve Geçmiş Aramalar başlıklı alt gezinme öğelerini gösterir.
 - Menüde Yeni Grup, Yıldızlı Mesajlar ve Ayarlar seçenekleri bulunur.
