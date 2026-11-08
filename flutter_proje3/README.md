@@ -1,17 +1,29 @@
-# flutter_proje3
+# Proje 3 — Hava Durumu
 
-A new Flutter project.
+OpenWeatherMap API'sinden şehir hava durumunu alan Flutter uygulaması. Kullanıcı şehirler ızgaresinden seçim yapar; ekranda şehir adı, sıcaklık, hava durumu açıklaması, nem ve rüzgâr bilgisi gösterilir.
 
-## Getting Started
+## Teknik ayrıntılar
 
-This project is a starting point for a Flutter application.
+- HTTP istekleri için Dio kullanılır.
+- API yanıtı `WeatherModel` sınıfına dönüştürülür.
+- İsteklerde Türkçe açıklama (`lang=tr`) ve Celsius birimi (`units=metric`) kullanılır.
+- API anahtarı `.env` dosyasından `WEATHER_API_KEY` adıyla okunur.
+- Şehir listesi Türkiye'deki illeri içerir.
 
-A few resources to get you started if this is your first Flutter project:
+## Kurulum
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. Bu klasörde `.env.example` dosyasını `.env` adıyla kopyalayın.
+2. OpenWeatherMap API anahtarınızı `.env` dosyasına girin:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```env
+WEATHER_API_KEY=buraya_kendi_api_anahtariniz
+```
+
+3. Bağımlılıkları yükleyip uygulamayı çalıştırın:
+
+```bash
+flutter pub get
+flutter run
+```
+
+API anahtarınızı herkese açık depoya eklemeyin. Hava verisinin gelmesi için internet bağlantısı ve geçerli bir API anahtarı gerekir.
