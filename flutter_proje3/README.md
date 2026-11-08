@@ -1,6 +1,6 @@
 # Proje 3 — Hava Durumu
 
-OpenWeatherMap API'sinden şehir hava durumunu alan Flutter uygulaması. Kullanıcı şehirler ızgaresinden seçim yapar; ekranda şehir adı, sıcaklık, hava durumu açıklaması, nem ve rüzgâr bilgisi gösterilir.
+OpenWeatherMap API'sinden şehir hava durumunu alan Flutter uygulaması. Kullanıcı şehirler ızgarasından seçim yapar; ekranda şehir adı, sıcaklık, hava durumu açıklaması, nem ve rüzgâr bilgisi gösterilir.
 
 ## Teknik ayrıntılar
 
